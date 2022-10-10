@@ -1,0 +1,17 @@
+# This data file contains contact information.
+
+twitter:
+  link: https://twitter.com/Aref26218258
+  username: "@Aref26218258"
+
+github:
+  link: https://github.com/A-Ghaderi
+  username: A-Ghaderi
+
+email:
+  address: ghaderi1@msu.edu
+
+address: |
+    Apt <br/>
+    1270 Garden City Rd <br/>
+    East Lansing, MI 48823
