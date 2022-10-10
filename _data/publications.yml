@@ -37,16 +37,13 @@ publication_types:
 publications:
 
   - citation: |
-      Aref Ghaderi, Vahid Morovati, and Roozbeh Dargazany. 2020.
+      Aref Ghaderi, Vahid Morovati, and Roozbeh Dargazany (2020).
       A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers.
-      Polymers
+      Polymers.
       <https://doi.org/10.3390/polym12112628>
     year: 2020
+    type: peer-reviewed-paper
     venue: Journal
-    type: Journal paper
-    pdf: /pubs/polymers.pdf
-    badges:
-      - article summary
     bibtex: |
       ```
       @article{ghaderi2020physics,
