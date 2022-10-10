@@ -1,0 +1,10 @@
+# cv_presentations.yml gives a listing of presentations for my CV
+
+- type: talk
+  title: Tag-based regulation of modules in genetic programming
+  authors: Alexander Lalejini, Roozbeh Dargazany
+  venue: IMECE
+  year: 2022
+  date: October, 2022
+  location: Columbus, OH
+  slides_link: https://docs.google.com/presentation/
