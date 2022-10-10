@@ -3,7 +3,7 @@
       and listing out all publications that are of that type. -->
 {% for pub_type in site.data.publications.publication_types %}
   <!-- Filter the list of publications down to just those that are of this type. -->
-  {% assign pubs = site.data.publications.publications | where: "type",pub_type.type_id | sort: "year" | reverse %}
+  {% assign pubs = site.data.publications.publications  %}
   {% assign num_pubs = pubs | size %}
   {% if num_pubs == 0 %} {% continue %} {% endif %} <!-- If none exist, move along without making a header for this type. -->
   <!-- If we're here, some number of publications of this type exist. Give a header. -->
