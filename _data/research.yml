@@ -1,8 +1,6 @@
 # research.yml gives research project entries used on the Research page
 
 - project: Evolving event-driven programs with SignalGP
-  image: "/imgs/signalgp.svg"
-  image_pos: "bottom"
   description: |
     Genetic programming (GP) is the application of natural principles to evolve
     computer programs rather than by writing them by hand. 
