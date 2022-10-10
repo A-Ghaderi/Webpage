@@ -37,34 +37,26 @@ publication_types:
 publications:
 
   - citation: |
-      Alexander Lalejini, Matthew Andres Moreno, and Charles Ofria. 2022.
-      Tag-based module regulation for genetic programming.
-      In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '22).
-      Association for Computing Machinery, New York, NY, USA, 25–26.
-      <https://doi.org/10.1145/3520304.3534060>
-    year: 2022
-    venue: conference
-    type: peer-reviewed-abstract
-    pdf: /pubs/2022-07-tag-based-regulation-ext-abstract.pdf
+      Aref Ghaderi, Vahid Morovati, and Roozbeh Dargazany. 2020.
+      A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers.
+      Polymers
+      <https://doi.org/10.3390/polym12112628>
+    year: 2020
+    venue: Journal
+    type: Journal paper
+    pdf: /pubs/polymers.pdf
     badges:
       - article summary
     bibtex: |
       ```
-      @inproceedings{10.1145/3520304.3534060,
-        author = {Lalejini, Alexander and Moreno, Matthew Andres and Ofria, Charles},
-        title = {Tag-Based Module Regulation for Genetic Programming},
-        year = {2022},
-        isbn = {9781450392686},
-        publisher = {Association for Computing Machinery},
-        address = {New York, NY, USA},
-        url = {https://doi.org/10.1145/3520304.3534060},
-        doi = {10.1145/3520304.3534060},
-        abstract = {This Hot-off-the-Press paper summarizes our recently published work, "Tag-based regulation of modules in genetic programming improves context-dependent problem solving," published in Genetic Programming and Evolvable Machines [1]. We introduce and experimentally demonstrate tag-based genetic regulation, a genetic programming (GP) technique that allows programs to dynamically adjust which code modules to express. Tags are evolvable labels that provide a flexible naming scheme for referencing code modules. Tag-based regulation extends tag-based naming schemes to allow programs to "promote" and "repress" code modules to alter module execution patterns. We find that tag-based regulation improves problem-solving success on problems where programs must adjust how they respond to current inputs based on prior inputs; indeed, some of these problems could not be solved until regulation was added. We also identify scenarios where the correct response to an input does not change over time, rendering tag-based regulation an unnecessary functionality that can sometimes impede evolution. Broadly, tag-based regulation adds to our repertoire of techniques for evolving more dynamic computer programs and can easily be incorporated into existing tag-enabled GP systems.},
-        booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
-        pages = {25–26},
-        numpages = {2},
-        keywords = {SignalGP, gene regulation, automatic program synthesis, tag-based referencing, genetic programming},
-        location = {Boston, Massachusetts},
-        series = {GECCO '22}
-      }
+      @article{ghaderi2020physics,
+  title={A physics-informed assembly of feed-forward neural network engines to predict inelasticity in cross-linked polymers},
+  author={Ghaderi, Aref and Morovati, Vahid and Dargazany, Roozbeh},
+  journal={Polymers},
+  volume={12},
+  number={11},
+  pages={2628},
+  year={2020},
+  publisher={MDPI}
+}
       ```
