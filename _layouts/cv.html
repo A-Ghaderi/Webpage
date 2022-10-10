@@ -157,33 +157,6 @@ layout: default
     </div>
   </div>
 
-  <!-- Category - professional service -->
-  <div class="row" id="cv-professional-service">
-    <div class="col">
-      <h3>{{ site.data.icons.cv_professional_service_icon }} Professional Service</h3>
-      {% assign service_sorted = site.data.cv_professional_service | sort: 'year' | reverse %}
-      <ul>
-          {% for service in service_sorted %}
-            <li><p>
-                <b> {{ service.service }}</b> <br/>
-                {% if service.date %} <i>{{ service.date }}</i> <br/> {% endif %}
-                {% if service.description %} {{ service.description }} {% endif %}
-            </p></li>
-          {% endfor %}
-          <li>
-            <b>Reviewed for:</b>
-            <ul>
-              {% for entry in site.data.cv_reviewed_for %}
-                <li>
-                  {{ entry.venue }}
-                </li>
-              {% endfor %}
-            </ul>
-          </li>
-        </ul>
-    </div>
-  </div>
-
   <!-- Category - outreach -->
   <div class="row" id="cv-outreach">
     <div class="col">
