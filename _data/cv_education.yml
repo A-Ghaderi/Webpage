@@ -1,0 +1,22 @@
+# cv_education.yml describes my collegiate education/degrees for my CV
+
+- degree: <b>Dual Ph.D.</b>, Mechanical Engineering, Civil Engineering
+  institution: Michigan State University
+  location: East Lansing, MI
+  dates: 2023
+  advisor: Roozbeh Dargazany, Thomos J. Pence
+ 
+  
+- degree: <b>M.Sc.</b>, Mechanical Engineering
+  institution: Sharif University of Technology
+  location: Tehran, Iran
+  dates: 2018
+  advisor: Saeed Khodaygan
+
+  
+  
+- degree: <b>B.S.</b>, Mechanical Engineering
+  institution: Shiraz University
+  location: Shiraz, Iran
+  dates: 2016
+  advisor: Esmael Ghavanloo
