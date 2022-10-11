@@ -1,6 +1,36 @@
 # cv_teaching.yml lists my teaching experience for my CV
 
 - workshop: |
-    Organizer, Citable and web-enabled supplemental material
-  date: June 2021; August 2021
-  for: 2021 HPM
+    SQL for Data Science
+  date: 2022
+  for: Coursera
+  
+- workshop: |
+    Advanced SQL Bootcamp
+  date: 2022
+  for: Udemy
+  
+- workshop: |
+    Neural Networks and Deep Learning
+  date: 2022
+  for: Coursera
+  
+- workshop: |
+    Convolutional Neural Networks
+  date: 2022
+  for: Coursera
+  
+- workshop: |
+    Python for DS and ML bootcamp
+  date: 2022
+  for: Udemy
+  
+- workshop: |
+    Tensorflow 2 and Keras DL bootcamp
+  date: 2022
+  for: Udemy
+  
+- workshop: |
+    Python for Data Science
+  date: 2022
+  for: Sololearn
