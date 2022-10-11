@@ -6,17 +6,9 @@ publication_types:
     pretty: Pre-publication
   - type_id: peer-reviewed-paper
     pretty: Peer-reviewed papers
-  - type_id: peer-reviewed-abstract
-    pretty: Peer-reviewed abstracts
-    overview: |
-      These are short (usually 2-page) summaries of research recently published or
-      to be published elsewhere.
   - type_id: book-chapter
     pretty: Book chapters
-  - type_id: misc
-    pretty: Miscellaneous
-    overview: |
-      Miscellaneous publications that are not peer reviewed.
+
 
 ################################
 # Listing of publications
