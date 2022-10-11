@@ -32,6 +32,7 @@ publications:
     year: 2022
     venue: journal
     type: peer-reviewed-paper
+    pdf: /pubs/PINN_arxiv.pdf
     bibtex: |
       ```
       @article{ghaderi2022knowledge,
@@ -41,3 +42,26 @@ publications:
         year={2022}
        }
       ```
+  - citation: |
+      Aref Ghaderi, vahid Morovati, and Roozbeh Dargazany.
+      A Bayesian surrogate constitutive model to estimate failure probability of elastomers.
+      <https://doi.org/10.1016/j.mechmat.2021.104044>
+    year: 2021
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/UQ_HPM.pdf
+    bibtex: |
+      ```
+       @article{ghaderi2021bayesian,
+         title={A Bayesian surrogate constitutive model to estimate failure probability of elastomers},
+         author={Ghaderi, Aref and Morovati, Vahid and Dargazany, Roozbeh},
+         journal={Mechanics of Materials},
+         volume={162},
+         pages={104044},
+         year={2021},
+         publisher={Elsevier}
+       }
+       
+      ```
+      
+
