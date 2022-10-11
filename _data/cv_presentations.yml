@@ -1,7 +1,7 @@
 # cv_presentations.yml gives a listing of presentations for my CV
 
 - type: talk
-  title: Modeling the Burning of Polymer Matrix: Training Collocation Physics-Informed Neural Network
+  title: Modeling the Burning of Polymer Matrix, Training Collocation Physics-Informed Neural Network
   authors: Aref Ghaderi, Roozbeh Dargazany
   venue: International Mechanical Engineering Congress and Exposition (IMECE2022)
   year: 2022
