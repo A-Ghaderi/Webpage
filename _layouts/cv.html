@@ -56,6 +56,23 @@ layout: default
       </ul>
     </div>
   </div>
+  
+  <!-- Category - workshops -->
+  <div class="row" id="cv-workshops">
+      <div class="col">
+        <h3>{{ site.data.icons.cv_workshop_icon }} Professional Certificates</h3>
+        <ul>
+          {% for workshop in site.data.cv_workshops %}
+          <li><p>
+            <b>{{ workshop.workshop }}</b> <br/>
+            <i>{{ workshop.for }}</i> <br/>
+            {% if workshop.date %} Date(s): {{ workshop.date }} <br/> {% endif %}
+            {% if workshop.description %} {{ workshop.description }} {% endif %}
+          </p></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
 
   <!-- Category - publications -->
   <div class="row" id="cv-publications">
@@ -106,23 +123,6 @@ layout: default
         </ul>
     </div>
   </div>
-
-  <!-- Category - workshops -->
-  <div class="row" id="cv-workshops">
-      <div class="col">
-        <h3>{{ site.data.icons.cv_workshop_icon }} Professional Certificates</h3>
-        <ul>
-          {% for workshop in site.data.cv_workshops %}
-          <li><p>
-            <b>{{ workshop.workshop }}</b> <br/>
-            <i>{{ workshop.for }}</i> <br/>
-            {% if workshop.date %} Date(s): {{ workshop.date }} <br/> {% endif %}
-            {% if workshop.description %} {{ workshop.description }} {% endif %}
-          </p></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
 
   <!-- Category - teaching -->
   <div class="row" id="cv-teaching">
