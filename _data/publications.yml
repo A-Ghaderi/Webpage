@@ -106,6 +106,28 @@ publications:
       ```
       
   - citation: |
+      Aref Ghaderi, Vahid Morovati, and Roozbeh Dargazany.
+      A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers.
+      <https://doi.org/10.3390/polym12112628>
+    year: 2020
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/Polymers_HPM.pdf
+    bibtex: |
+      ```
+      @article{ghaderi2020physics,
+        title={A physics-informed assembly of feed-forward neural network engines to predict inelasticity in cross-linked polymers},
+        author={Ghaderi, Aref and Morovati, Vahid and Dargazany, Roozbeh},
+        journal={Polymers},
+        volume={12},
+        number={11},
+        pages={2628},
+        year={2020},
+        publisher={MDPI}
+      }
+      ```
+      
+  - citation: |
       Hossein Hassani, Saeed Khodaygan, and Aref Ghaderi.
       Bayesian reliability-based robust design optimization of mechanical systems under both aleatory and epistemic uncertainties.
       <https://doi.org/10.1080/0305215X.2021.2014828>
@@ -122,6 +144,28 @@ publications:
         pages={1--21},
         year={2022},
         publisher={Taylor \& Francis}
+      }
+      ```
+      
+  - citation: |
+      Aref Ghaderi, Esmael Ghavanloo, and S.A. Fazelzadeh.
+      Reliability analysis of carbon nanotube-based nano-truss under various loading conditions.
+      <https://doi.org/10.1007/s40997-019-00340-w>
+    year: 2021
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/Reliability_nanotube.pdf
+    bibtex: |
+      ```
+      @article{ghaderi2021reliability,
+        title={Reliability analysis of carbon nanotube-based nano-truss under various loading conditions},
+        author={Ghaderi, A and Ghavanloo, E and Fazelzadeh, SA},
+        journal={Iranian Journal of Science and Technology, Transactions of Mechanical Engineering},
+        volume={45},
+        number={4},
+        pages={1123--1131},
+        year={2021},
+        publisher={Springer}
       }
       ```
       
