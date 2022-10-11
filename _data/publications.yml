@@ -63,5 +63,24 @@ publications:
        }
        
       ```
+  - citation: |
+      Hossein Hassani, Saeed Khodaygan, and Aref Ghaderi.
+      Bayesian reliability-based robust design optimization of mechanical systems under both aleatory and epistemic uncertainties.
+      <https://doi.org/10.1080/0305215X.2021.2014828>
+    year: 2021
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/Engineering Optimization.pdf
+    bibtex: |
+      ```
+      @article{hassani2022bayesian,
+        title={Bayesian reliability-based robust design optimization of mechanical systems under both aleatory and epistemic uncertainties},
+        author={Hassani, H and Khodaygan, S and Ghaderi, A},
+        journal={Engineering Optimization},
+        pages={1--21},
+        year={2022},
+        publisher={Taylor \& Francis}
+      }
+      ```
       
 
