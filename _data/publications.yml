@@ -64,6 +64,48 @@ publications:
        
       ```
   - citation: |
+      Aref Ghaderi, Vahid Morovati, Yang Chen, and Roozbeh Dargazany.
+      A physics-informed multi-agents model to predict thermo-oxidative/hydrolytic aging of elastomers.
+      <https://doi.org/10.1016/j.ijmecsci.2022.107236>
+    year: 2022
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/thermo_HPM.pdf
+    bibtex: |
+      ```
+      @article{ghaderi2022physics,
+        title={A physics-informed multi-agents model to predict thermo-oxidative/hydrolytic aging of elastomers},
+        author={Ghaderi, Aref and Morovati, Vahid and Chen, Yang and Dargazany, Roozbeh},
+        journal={International Journal of Mechanical Sciences},
+        volume={223},
+        pages={107236},
+        year={2022},
+        publisher={Elsevier}
+      }
+      ```
+      
+  - citation: |
+      Aref Ghaderi, Hossein Hassani, and Saeed Khodaygan.
+      A Bayesian-reliability based multi-objective optimization for tolerance design of mechanical assemblies.
+      <https://doi.org/10.1016/j.ress.2021.107748>
+    year: 2021
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/JRESS.pdf
+    bibtex: |
+      ```
+      @article{ghaderi2021bayesian,
+        title={A Bayesian-reliability based multi-objective optimization for tolerance design of mechanical assemblies},
+        author={Ghaderi, A and Hassani, H and Khodaygan, S},
+        journal={Reliability Engineering \& System Safety},
+        volume={213},
+        pages={107748},
+        year={2021},
+        publisher={Elsevier}
+      }
+      ```
+      
+  - citation: |
       Hossein Hassani, Saeed Khodaygan, and Aref Ghaderi.
       Bayesian reliability-based robust design optimization of mechanical systems under both aleatory and epistemic uncertainties.
       <https://doi.org/10.1080/0305215X.2021.2014828>
