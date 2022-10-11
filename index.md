@@ -3,14 +3,11 @@ title: About
 layout: about
 
 about_me: |
-  I am an Assistant Professor in the School of Computing at Grand Valley State University.
-  My research intersects computer science and evolution, applying the principles of each field to advance the other.
-  Broadly, my work focuses on (1) developing digital systems to investigate fundamental questions about how evolution works, (2) harnessing our understanding of evolution to engineer new algorithms to solve challenging computational problems, and (3) facilitating knowledge transfer between the fields of evolutionary biology and evolutionary computing.
-  To learn more, check out my [publications](https://lalejini.com/publications) or feel free to reach out!
-  Code for all of my projects is open source and available on [GitHub (@amlalejini)](https://github.com/amlalejini), and the slides for many of my past talks can be found [here](https://lalejini.com/cv/).
+ 
+  I am a PhD student in both Mechanical and Civil Engineering (dual major) at Michigan State University. My research intersects computer science and mechanics, applying the principles of each field to advance the other. Broadly, my work focuses on (1) developing new physics-based machine-learned model to address the problem of computational cost for nonlinear systems, (2) uncertainty quantification to engineer new algorithms to solve challenging computational problems, and (3) facilitating knowledge transfer between the fields of machine learning and mechanics. To learn more, check out my publications or feel free to reach out! Code for all of my projects is open source and available on GitHub (@A-Ghaderi), and the slides for many of my past talks can be found here.
 
-about_me_img: "/imgs/me/2021-08-31-masked.jpg"
+about_me_img: "/imgs/me/AG.jpg"
 about_me_img_caption: |
-  Mask up! (photo credit Dale Austin)
+ (photo credit AAA)
 
 ---
