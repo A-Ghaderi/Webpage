@@ -31,3 +31,23 @@ publication_types:
 # - pdf
 # - bibtex_id
 # - bibtex
+
+publications:
+
+  - citation: |
+      Aref Ghaderi, Ramin Akbari, Yang Chen, and Roozbeh Dargazany (2022).
+      A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers
+      arXiv. [arXiv:2209.11749v1](https://doi.org/10.48550/arXiv.2209.11749)
+     year: 2022
+     type: pre-pub
+     venue: preprint
+     bibtex_id: moreno2021matchmaker
+     bibtex: |
+       ```
+       @article{ghaderi2022knowledge,
+        title={A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers},
+        author={Ghaderi, Aref and Akbari, Ramin and Chen, Yang and Dargazany, Roozbeh},
+        journal={arXiv preprint arXiv:2209.11749},
+        year={2022}
+       }
+        ```
