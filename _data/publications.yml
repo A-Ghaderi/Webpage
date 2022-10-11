@@ -30,7 +30,7 @@ publications:
       A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers.
       <https://doi.org/10.48550/arXiv.2209.11749>
     year: 2022
-    venue: arXiv
+    venue: journal
     type: peer-reviewed-paper
     bibtex: |
       ```
