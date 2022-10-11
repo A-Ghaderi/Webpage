@@ -33,6 +33,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/PINN_arxiv.pdf
+    bibtex_id: ghaderi2022knowledge
     bibtex: |
       ```
       @article{ghaderi2022knowledge,
@@ -50,6 +51,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/UQ_HPM.pdf
+    bibtex_id: ghaderi2021bayesian
     bibtex: |
       ```
        @article{ghaderi2021bayesian,
@@ -71,6 +73,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/thermo_HPM.pdf
+    bibtex_id: ghaderi2022physics
     bibtex: |
       ```
       @article{ghaderi2022physics,
@@ -92,6 +95,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/JRESS.pdf
+    bibtex_id: ghaderi2021bayesian
     bibtex: |
       ```
       @article{ghaderi2021bayesian,
@@ -113,6 +117,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/Polymers_HPM.pdf
+    bibtex_id: ghaderi2020physics
     bibtex: |
       ```
       @article{ghaderi2020physics,
@@ -135,6 +140,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/Engineering Optimization.pdf
+    bibtex_id: hassani2022bayesian
     bibtex: |
       ```
       @article{hassani2022bayesian,
@@ -155,6 +161,7 @@ publications:
     venue: journal
     type: peer-reviewed-paper
     pdf: /pubs/Reliability_nanotube.pdf
+    bibtex_id: ghaderi2021reliability
     bibtex: |
       ```
       @article{ghaderi2021reliability,
