@@ -2,12 +2,9 @@
 
 # Types of publication (in order of listing on page)
 publication_types:
-  - type_id: pre-pub
-    pretty: Pre-publication
+
   - type_id: peer-reviewed-paper
     pretty: Peer-reviewed papers
-  - type_id: book-chapter
-    pretty: Book chapters
 
 
 ################################
@@ -34,7 +31,7 @@ publications:
       <https://doi.org/10.48550/arXiv.2209.11749>
     year: 2022
     venue: arXiv
-    type: pre-pub
+    type: peer-reviewed-paper
     bibtex: |
       ```
       @article{ghaderi2022knowledge,
