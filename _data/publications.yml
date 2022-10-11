@@ -154,6 +154,26 @@ publications:
       ```
       
   - citation: |
+      Saeed Khodaygan, and Aref Ghaderi.
+      Tolerance–reliability analysis of mechanical assemblies for quality control based on Bayesian modeling.
+      <https://doi/10.1108/AA-06-2018-081>
+    year: 2019
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/AA.pdf
+    bibtex_id: khodaygan2019tolerance
+    bibtex: |
+      ```
+      @article{khodaygan2019tolerance,
+        title={Tolerance--reliability analysis of mechanical assemblies for quality control based on Bayesian modeling},
+        author={Khodaygan, S and Ghaderi, A},
+        journal={Assembly Automation},
+        year={2019},
+        publisher={Emerald Publishing Limited}
+      }
+      ```
+      
+  - citation: |
       Aref Ghaderi, Esmael Ghavanloo, and S.A. Fazelzadeh.
       Reliability analysis of carbon nanotube-based nano-truss under various loading conditions.
       <https://doi.org/10.1007/s40997-019-00340-w>
@@ -183,6 +203,30 @@ publications:
     venue: conference
     type: peer-reviewed-paper
     pdf: /pubs/IMECE 2021.pdf
+    
+  - citation: |
+      Aref Ghaderi, Vahid Morovati, Amir Bahrololoumi, and Roozbeh Dargazany.
+      A Physics-Informed Neural Network Constitutive Model for Cross-Linked Polymers.
+    year: 2020
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/Data IMECE.pdf
+    
+  - citation: |
+      Aref Ghaderi, Vahid Morovati, Pouyan Nasiri, and Roozbeh Dargazany.
+      Uncertainty Quantification in Predicting Behaviour of Rubber-Like Materials in Uni-Axial Loading.
+    year: 2020
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/UQ IMECE.pdf
+    
+  - citation: |
+      Vahid Morovati, Aref Ghaderi, and Roozbeh Dargazany.
+      Data-Driven Constitutive Modeling of the Progressive Softening in Elastomeric Gels With Interpenetrating Networks.
+    year: 2020
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/UQ IMECE.pdf
     
       
 
