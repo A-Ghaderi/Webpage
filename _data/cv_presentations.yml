@@ -1,10 +1,34 @@
 # cv_presentations.yml gives a listing of presentations for my CV
 
 - type: talk
-  title: Tag-based regulation of modules in genetic programming
+  title: Modeling the Burning of Polymer Matrix: Training Collocation Physics-Informed Neural Network
   authors: Aref Ghaderi, Roozbeh Dargazany
-  venue: IMECE
+  venue: International Mechanical Engineering Congress and Exposition (IMECE2022)
   year: 2022
   date: October, 2022
   location: Columbus, OH
+  
+- type: talk
+  title: A Physics-Based Data-Driven Approach for Modeling of Environmental Degradation in Elastomers
+  authors: Aref Ghaderi, Yang Chen, Roozbeh Dargazany
+  venue: International Mechanical Engineering Congress and Exposition (IMECE2022)
+  year: 2022
+  date: October, 2022
+  location: Columbus, OH
+  
+- type: talk
+  title: Uncertainty Quantification in Predicting Behaviour of Rubber-Like Materials in Uni-Axial Loading
+  authors: Aref Ghaderi, Vahid Morovati, Pouyan Nasiri, Roozbeh Dargazany
+  venue: International Mechanical Engineering Congress and Exposition (IMECE2020)
+  year: 2020
+  date: October, 2020
+  location: Virtual
+  
+- type: talk
+  title: A Physics-Informed Neural Network Constitutive Model for Cross-Linked Polymers
+  authors: Aref Ghaderi, Vahid Morovati, Roozbeh Dargazany
+  venue: International Mechanical Engineering Congress and Exposition (IMECE2020)
+  year: 2020
+  date: October, 2020
+  location: Virtual
 
