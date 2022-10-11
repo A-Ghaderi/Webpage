@@ -176,4 +176,13 @@ publications:
       }
       ```
       
+  - citation: |
+      Amir Bahrololoumi, Aref Ghaderi, Mamoon Shaafaey, and Roozbeh Dargazany.
+      A Micro-Mechanical Constitutive Model to Predict Hygrothermal Aging of Cross-Linked Polymers.
+    year: 2021
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/IMECE 2021.pdf
+    
+      
 
