@@ -4,7 +4,7 @@ layout: about
 
 about_me: |
  
-  I am a PhD student in both Mechanical and Civil Engineering (dual major) at Michigan State University. My research intersects computer science and mechanics, applying the principles of each field to advance the other. Broadly, my work focuses on (1) developing new physics-based machine-learned model to address the problem of computational cost for nonlinear systems, (2) uncertainty quantification to engineer new algorithms to solve challenging computational problems, and (3) facilitating knowledge transfer between the fields of machine learning and mechanics. To learn more, check out my publications or feel free to reach out! Code for all of my projects is open source and available on GitHub (@A-Ghaderi), and the slides for many of my past talks can be found here.
+  I am a PhD student in both Mechanical and Civil Engineering (dual major) at Michigan State University. My research intersects computer science and mechanics, applying the principles of each field to advance the other. Broadly, my work focuses on (1) developing new physics-based machine-learned model to address the problem of computational cost for nonlinear systems, (2) uncertainty quantification to engineer new algorithms to solve challenging computational problems, and (3) facilitating knowledge transfer between the fields of machine learning and mechanics. To learn more, check out my publications or feel free to reach out! Code for all of my projects is open source and available on [GitHub (@A-Ghaderi)](https://github.com/A-Ghaderi), and the slides for many of my past talks can be found here.
 
 about_me_img: "/imgs/me/AG.jpg"
 about_me_img_caption: |
