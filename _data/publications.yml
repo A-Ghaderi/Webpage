@@ -27,7 +27,7 @@ publications:
 
   - citation: |
       Aref Ghaderi, Ramin Akbari, Yang Chen, and Roozbeh Dargazany.
-      A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers.
+      A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers (2022).
       <https://doi.org/10.48550/arXiv.2209.11749>
     year: 2022
     venue: journal
@@ -45,7 +45,7 @@ publications:
       ```
   - citation: |
       Aref Ghaderi, vahid Morovati, and Roozbeh Dargazany.
-      A Bayesian surrogate constitutive model to estimate failure probability of elastomers.
+      A Bayesian surrogate constitutive model to estimate failure probability of elastomers (2021).
       <https://doi.org/10.1016/j.mechmat.2021.104044>
     year: 2021
     venue: journal
@@ -67,7 +67,7 @@ publications:
       ```
   - citation: |
       Aref Ghaderi, Vahid Morovati, Yang Chen, and Roozbeh Dargazany.
-      A physics-informed multi-agents model to predict thermo-oxidative/hydrolytic aging of elastomers.
+      A physics-informed multi-agents model to predict thermo-oxidative/hydrolytic aging of elastomers (2022).
       <https://doi.org/10.1016/j.ijmecsci.2022.107236>
     year: 2022
     venue: journal
@@ -89,7 +89,7 @@ publications:
       
   - citation: |
       Aref Ghaderi, Hossein Hassani, and Saeed Khodaygan.
-      A Bayesian-reliability based multi-objective optimization for tolerance design of mechanical assemblies.
+      A Bayesian-reliability based multi-objective optimization for tolerance design of mechanical assemblies (2021).
       <https://doi.org/10.1016/j.ress.2021.107748>
     year: 2021
     venue: journal
@@ -111,7 +111,7 @@ publications:
       
   - citation: |
       Aref Ghaderi, Vahid Morovati, and Roozbeh Dargazany.
-      A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers.
+      A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers (2020).
       <https://doi.org/10.3390/polym12112628>
     year: 2020
     venue: journal
@@ -134,7 +134,7 @@ publications:
       
   - citation: |
       Hossein Hassani, Saeed Khodaygan, and Aref Ghaderi.
-      Bayesian reliability-based robust design optimization of mechanical systems under both aleatory and epistemic uncertainties.
+      Bayesian reliability-based robust design optimization of mechanical systems under both aleatory and epistemic uncertainties (2021).
       <https://doi.org/10.1080/0305215X.2021.2014828>
     year: 2021
     venue: journal
@@ -155,7 +155,7 @@ publications:
       
   - citation: |
       Saeed Khodaygan, and Aref Ghaderi.
-      Tolerance–reliability analysis of mechanical assemblies for quality control based on Bayesian modeling.
+      Tolerance–reliability analysis of mechanical assemblies for quality control based on Bayesian modeling (2019).
       <https://doi/10.1108/AA-06-2018-081>
     year: 2019
     venue: journal
@@ -175,7 +175,7 @@ publications:
       
   - citation: |
       Aref Ghaderi, Esmael Ghavanloo, and S.A. Fazelzadeh.
-      Reliability analysis of carbon nanotube-based nano-truss under various loading conditions.
+      Reliability analysis of carbon nanotube-based nano-truss under various loading conditions (2020).
       <https://doi.org/10.1007/s40997-019-00340-w>
     year: 2021
     venue: journal
@@ -198,7 +198,7 @@ publications:
       
   - citation: |
       Amir Bahrololoumi, Aref Ghaderi, Mamoon Shaafaey, and Roozbeh Dargazany.
-      A Micro-Mechanical Constitutive Model to Predict Hygrothermal Aging of Cross-Linked Polymers.
+      A Micro-Mechanical Constitutive Model to Predict Hygrothermal Aging of Cross-Linked Polymers (2021).
     year: 2021
     venue: conference
     type: peer-reviewed-paper
@@ -206,7 +206,7 @@ publications:
     
   - citation: |
       Aref Ghaderi, Vahid Morovati, Amir Bahrololoumi, and Roozbeh Dargazany.
-      A Physics-Informed Neural Network Constitutive Model for Cross-Linked Polymers.
+      A Physics-Informed Neural Network Constitutive Model for Cross-Linked Polymers (2020).
     year: 2020
     venue: conference
     type: peer-reviewed-paper
@@ -214,7 +214,7 @@ publications:
     
   - citation: |
       Aref Ghaderi, Vahid Morovati, Pouyan Nasiri, and Roozbeh Dargazany.
-      Uncertainty Quantification in Predicting Behaviour of Rubber-Like Materials in Uni-Axial Loading.
+      Uncertainty Quantification in Predicting Behaviour of Rubber-Like Materials in Uni-Axial Loading (2020).
     year: 2020
     venue: conference
     type: peer-reviewed-paper
@@ -222,7 +222,7 @@ publications:
     
   - citation: |
       Vahid Morovati, Aref Ghaderi, and Roozbeh Dargazany.
-      Data-Driven Constitutive Modeling of the Progressive Softening in Elastomeric Gels With Interpenetrating Networks.
+      Data-Driven Constitutive Modeling of the Progressive Softening in Elastomeric Gels With Interpenetrating Networks (2020).
     year: 2020
     venue: conference
     type: peer-reviewed-paper
