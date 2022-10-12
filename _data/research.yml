@@ -1,23 +1,32 @@
 # research.yml gives research project entries used on the Research page
 
-- project: Evolving event-driven programs with SignalGP
+- project: Physics_Informed Neural Network (PINN)
+  image: "/imgs/Building blocks.svg"
+  image_pos: "bottom"
   description: |
-    Genetic programming (GP) is the application of natural principles to evolve
-    computer programs rather than by writing them by hand. 
-    The types of programs that are easily evolvable depends on the underlying
-    programming representation - *i.e.*, the way we organize and interpet programs.
+    The finite element method (FEM) is a common approach that
+    (1) uses a set of basis functions within discretized sub-domains of the geometry to approximate the solution to the
+    PDE at each time point and (2) iteratively simulates the evolution of the basis function coefficients forward in time.
+    Comes with a restrictive computational cost in the case of repetitive simulations, such as optimization,
+    control, real-time monitoring, probabilistic modeling, and uncertainty quantification. This is due to the fact that
+    forward simulations require solving large non-linear equations repeatedly.
     
-    SignalGP is a new GP technique designed to give evolution direct access to the
-    event-driven programming paradigm where computations are triggered response to 
-    signals from the environment, from other agents, or that are internally generated. 
-    I designed and developed the initial version of SignalGP in 2017, resulting 
-    in a [paper](https://doi.org/10.1145/3205455.3205523) and a talk at GECCO 2018
-    where I demonstrate the value of giving evolution direct access to the event-driven
-    paradigm.
+    The advent of Machine Learning (ML) and AI in recent years
+    has provided an opportunity to construct quick surrogate ML models to replace high fidelity multi-physics models,
+    which have a high computational cost and may not be applicable for high nonlinear equations.
+    PINN differs from other
+    machine learning paradigms widely employed for mechanics and physics challenges in terms of how data is needed
+    and employed. Unlike supervised learning, which is often used for materials laws and requires artificial intelligence
+    to be trained with labels in order to generate forecasts, the search for the solution in PINN does not require any data
+    other than the ones required to form the loss function
     
-    I am currently working on several extensions to the SignalGP representation,
-    such as function regulation, multi-representation SignalGP, and multi-level/hierarchical
-    SignalGP.
+    Our goal is to find techniques to make PINN training less costly, lower the amount of trial-anderror necessary to appropriately tune the hyper-parameters, 
+    and at the very least, empirically increase the training
+    process’s robustness. Our current [paper](https://doi.org/10.48550/arXiv.2209.11749) is to present a synthesis
+    that incorporates: (i) employing non-dimensionalization and normalization of the physical parameter to address the
+    problem of complex equations, (ii) infusing a broad understanding of the solution field with imprecise knowledge, (iii)
+    using a weighted-sum scheme to enhance optimization algorithms in the context of multi-objective optimization, (IV)
+    exploiting different approaches for weight initialization due to unbalanced gradients causes inaccuracy in optimization.
         
     
 
