@@ -8,6 +8,6 @@ about_me: |
 
 about_me_img: "/imgs/me/AG1.jpg"
 about_me_img_caption: |
- (photo credit AAA)
+ (photo credit S.S.)
 
 ---
