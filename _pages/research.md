@@ -4,7 +4,7 @@ layout: research
 permalink: /research/
 
 jumbo_txt: |
-    ""
+    "By far, the greatest danger of Artificial Intelligence is that people conclude too early that they understand it."
 
 overview: |
     My research resides somewhere at the intersection of data science, and mechanical engineering. 
