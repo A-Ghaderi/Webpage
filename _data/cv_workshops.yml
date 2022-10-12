@@ -1,9 +1,9 @@
 # cv_teaching.yml lists my teaching experience for my CV
 
 - workshop: |
-    SQL for Data Science
+    SQL for Data Science (https://www.coursera.org/account/accomplishments/verify/QN4ZEULQR2F8)
   date: 2022
-  for: [Coursera](https://www.coursera.org/account/accomplishments/verify/QN4ZEULQR2F8)
+  for: [Coursera]
   
 - workshop: |
     Advanced SQL Bootcamp
