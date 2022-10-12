@@ -3,14 +3,12 @@
 - project: Physics_Informed Neural Network (PINN)
   image: "/imgs/Building blocks.svg"
   image_pos: "bottom"
-  image_is_figure: true
+  image_is_figure: false
   figure_caption: |
     A schematic of PINN blocks
   description: |
     The finite element method (FEM) is a common approach that
-    (1) uses a set of basis functions within discretized sub-domains of the geometry to approximate the solution to the
-    PDE at each time point and (2) iteratively simulates the evolution of the basis function coefficients forward in time.
-    Comes with a restrictive computational cost in the case of repetitive simulations, such as optimization,
+    comes with a restrictive computational cost in the case of repetitive simulations, such as optimization,
     control, real-time monitoring, probabilistic modeling, and uncertainty quantification. This is due to the fact that
     forward simulations require solving large non-linear equations repeatedly.
     
@@ -18,10 +16,7 @@
     has provided an opportunity to construct quick surrogate ML models to replace high fidelity multi-physics models,
     which have a high computational cost and may not be applicable for high nonlinear equations.
     PINN differs from other
-    machine learning paradigms widely employed for mechanics and physics challenges in terms of how data is needed
-    and employed. Unlike supervised learning, which is often used for materials laws and requires artificial intelligence
-    to be trained with labels in order to generate forecasts, the search for the solution in PINN does not require any data
-    other than the ones required to form the loss function
+    
     
     Our goal is to find techniques to make PINN training less costly, lower the amount of trial-anderror necessary to appropriately tune the hyper-parameters, 
     and at the very least, empirically increase the training
@@ -35,7 +30,7 @@
 - project: Physics-Constrained Data-Driven Modeling
   image: "/imgs/concept.svg"
   image_pos: "bottom"
-  image_is_figure: true
+  image_is_figure: false
   figure_caption: |
     Schematic of the proposed model from order-reduction to model fusion
   description: |
@@ -57,6 +52,32 @@
     effects; (4) defining learning agents to represent each 1D subnetwork.
     Those steps which are required to build a cooperative multi-agents
     hybrid model and their formulation are outlined in our [paper](https://doi.org/10.1016/j.ijmecsci.2022.107236).
+    
+    
+- project: Uncertainty Quantification and Probability of Failure
+  image: "/imgs/UQ aging.svg"
+  image_pos: "bottom"
+  image_is_figure: false
+  figure_caption: |
+    Schematic of the proposed model from UQ and PF
+  description: |
+    proper prediction of the end-life of rubberlike materials has been a subject of significant interest, which comes
+    with major challenges. One major challenge is the large uncertainty
+    observed in the behavior of elastomers induced by intrinsic defects,
+    processing, sample manufacturing, or simply heterogeneous nature of
+    the matrix. Elastomers are often made by highly cross-linked polymer
+    matrix that behave fully elastic with entropic force, which results in
+    a highly non-linear behavior, especially during large deformation and
+    significant hardening observed before failure.
+    
+    In this [contribution](https://doi.org/10.1016/j.mechmat.2021.104044), our goal is to carry out three fundamental steps
+    in probabilistic modeling of elastomers, namely (i) Bayesian evaluation of constitutive model's parameters
+    for hyperelastic behavior of rubber-like materials from distinct
+    experimental data, (ii) Development of confidence bounds for stress–
+    strain curves based on conjugate prior, and (iii) failure probability
+    calculation based on First Order Reliability Method (FORM) and
+    validated against that of Crude Monte Carlo (CMC) simulation to provide a sensitivity analysis on the effect of model parameters on failure
+    probability.
         
     
 
