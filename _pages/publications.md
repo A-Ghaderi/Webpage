@@ -7,12 +7,6 @@ jumbo_txt: |
   My publications can also be found on my [Google Scholar page](https://scholar.google.com/citations?user=NYZnS8MAAAAJ&hl=en).
     
 overview: |
-  Because my work often spans multiple disciplines, I publish in a variety of 
-  venues with different norms and conventions. 
-  In addition to each publication's citation information, which will include links
-  to a pdf version when possible, I have attached an assortment of informative icons.
-  Icons to the left of a publication’s citation information specify the
-  venue where the work was published.
-  Icons below a publication’s citation information specify other information.
+  As a result of the fact that my work frequently crosses numerous fields, I publish in a number of places with various standards and customs. I have added a variety of educational symbols in addition to the citation information for each article, which will, if available, contain links to a pdf version. The location where the work was published is indicated by an icon to the left of a publication's citation information. Other information is shown by icons underneath a publication's citation information.
 
 ---
