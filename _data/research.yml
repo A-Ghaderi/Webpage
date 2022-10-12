@@ -1,9 +1,8 @@
 # research.yml gives research project entries used on the Research page
 
 - project: Physics_Informed Neural Network (PINN)
-  image: "/imgs/Building blocks.svg"
+  image: "/imgs/Building blocks.pdf"
   image_pos: "bottom"
-  image_is_figure: true
   description: |
     The finite element method (FEM) is a common approach that
     (1) uses a set of basis functions within discretized sub-domains of the geometry to approximate the solution to the
