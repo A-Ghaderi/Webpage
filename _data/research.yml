@@ -3,7 +3,7 @@
 - project: Physics_Informed Neural Network (PINN)
   image: "/imgs/Building blocks.svg"
   image_pos: "bottom"
-  image_is_figure: false
+  image_is_figure: true
   figure_caption: |
     A schematic of PINN blocks
   description: |
@@ -30,7 +30,7 @@
 - project: Physics-Constrained Data-Driven Modeling
   image: "/imgs/concept.svg"
   image_pos: "bottom"
-  image_is_figure: false
+  image_is_figure: true
   figure_caption: |
     Schematic of the proposed model from order-reduction to model fusion
   description: |
@@ -57,7 +57,7 @@
 - project: Uncertainty Quantification and Probability of Failure
   image: "/imgs/UQ aging.svg"
   image_pos: "bottom"
-  image_is_figure: false
+  image_is_figure: true
   figure_caption: |
     Schematic of the proposed model from UQ and PF
   description: |
