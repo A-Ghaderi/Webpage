@@ -1,5 +1,11 @@
+- award: Haythornthwaite Foundation Student Award
+  type: fellowship
+  description: |
+    Awarded by American Society of Mechanical Engineers (ASME).
+  year: 2022
+  
 - award: University Distinguished Fellowship
   type: fellowship
-  # description: |
-  #   Awarded by Michigan State University to 20 out of approximately 500 incoming Ph.D. students.
+  description: |
+    Awarded by Michigan State University.
   year: 2019
