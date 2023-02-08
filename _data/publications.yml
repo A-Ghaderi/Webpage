@@ -26,6 +26,25 @@ publication_types:
 publications:
 
   - citation: |
+      Aref Ghaderi, and Roozbeh Dargazany.
+      A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers (2023).
+      <https://doi.org/10.3390/polym12112628>
+    year: 2023
+    venue: journal
+    type: peer-reviewed-paper
+    pdf: /pubs/JAM Visco.pdf
+    bibtex_id: ghaderi2023data
+    bibtex: |
+      ```
+      @article{ghaderi2022knowledge,
+        title={A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers},
+        author={Ghaderi, Aref and Akbari, Ramin and Chen, Yang and Dargazany, Roozbeh},
+        journal={arXiv preprint arXiv:2209.11749},
+        year={2022}
+       }
+      ```
+
+  - citation: |
       Aref Ghaderi, Ramin Akbari, Yang Chen, and Roozbeh Dargazany.
       A Knowledge-driven Physics-Informed Neural Network model; Pyrolysis and Ablation of Polymers (2022).
       <https://doi.org/10.48550/arXiv.2209.11749>
