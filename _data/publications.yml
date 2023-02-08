@@ -214,7 +214,23 @@ publications:
         publisher={Springer}
       }
       ```
-      
+ 
+  - citation: |
+      Aref Ghaderi, and Roozbeh Dargazany.
+      Modeling the burning of polymer matrix, training collocation physics-informed neural network (2022).
+    year: 2022
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/IMECE_2022_Burning.pdf
+    
+  - citation: |
+      Aref Ghaderi, Yang Chen, and Roozbeh Dargazany.
+      A physics-based data-driven approach for modeling of environmental degradation in elastomers (2022).
+    year: 2022
+    venue: conference
+    type: peer-reviewed-paper
+    pdf: /pubs/IMECE_2022_Single_Aging.pdf
+ 
   - citation: |
       Amir Bahrololoumi, Aref Ghaderi, Mamoon Shaafaey, and Roozbeh Dargazany.
       A Micro-Mechanical Constitutive Model to Predict Hygrothermal Aging of Cross-Linked Polymers (2021).
