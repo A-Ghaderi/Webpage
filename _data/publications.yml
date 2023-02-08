@@ -27,7 +27,7 @@ publications:
 
   - citation: |
       Aref Ghaderi, and Roozbeh Dargazany.
-      A Physics-Informed Assembly of Feed-Forward Neural Network Engines to Predict Inelasticity in Cross-Linked Polymers (2023).
+      A data-driven model to predict constitutive and failure behaviour of elastomers considering the strain rate, temperature, and filler ratio (2023).
       <https://doi.org/10.3390/polym12112628>
     year: 2023
     venue: journal
