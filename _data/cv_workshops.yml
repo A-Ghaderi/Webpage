@@ -1,6 +1,26 @@
 # cv_teaching.yml lists my teaching experience for my CV
 
 - workshop: |
+    Manufacturing process selection and Design for manufacturing
+  date: 2023
+  for: Udemy
+
+- workshop: |
+    Geometric Dimensioning and Tolerancing (GD&T)
+  date: 2023
+  for: Udemy
+
+- workshop: |
+    Finite Element Analysis Training : Altair Hypermesh & Abaqus
+  date: 2022
+  for: Udemy
+  
+- workshop: |
+    FMEA Training | FMEA  Specialist Certification (Accredited)
+  date: 2023
+  for: Udemy
+
+- workshop: |
     SQL for Data Science
   date: 2022
   for: Coursera 
