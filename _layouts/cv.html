@@ -14,6 +14,33 @@ layout: default
 <!-- Actual CV content, organized by category. -->
 <div class="container">
 
+  <!-- Category - professional appointments -->
+  <div class="row" id="cv-professional-appointments">
+    <div class="col">
+      <h3>{{ site.data.icons.cv_professional_appointments_icon }} Professional Appointments</h3>
+      <ul>
+        {% for exp in site.data.cv_professional_appointments %}
+          <li>
+            <p>
+              {% if exp.institution %}
+                <strong>{{ exp.institution }}</strong>{% if exp.location %} - {{ exp.location }}{% endif %}<br/>
+              {% endif %}
+              {% if exp.position %}
+                {{ exp.position }}{% if exp.advisors %}, advisor(s): {{ exp.advisors }}{% endif %}<br/>
+              {% endif %}
+              {% if exp.dates %}
+                <i>{{ exp.dates }}</i><br/>
+              {% endif %}
+              {% if exp.description %}
+                {{ exp.description }}<br/>
+              {% endif %}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
   <!-- Category - education -->
   <div class="row" id="cv-education">
     <div class="col">
