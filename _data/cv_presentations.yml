@@ -1,6 +1,22 @@
 # cv_presentations.yml gives a listing of presentations for my CV
 
 - type: talk
+  title: Electrification AI Assistant for EVs
+  authors: Aref Ghaderi, Hyongju Park
+  venue: Ford AI/ML Conference
+  year: 2024
+  date: September, 2024
+  location: Dearborn, MI
+
+- type: talk
+  title: Kano Modeling using Explainable Machine Learning for Marketing and Vehicle Design
+  authors: Aref Ghaderi, Hyongju Park
+  venue: Ford AI/ML Conference
+  year: 2024
+  date: September, 2024
+  location: Dearborn, MI
+  
+- type: talk
   title: Modeling the Burning of Polymer Matrix, Training Collocation Physics-Informed Neural Network
   authors: Aref Ghaderi, Roozbeh Dargazany
   venue: International Mechanical Engineering Congress and Exposition (IMECE2022)
