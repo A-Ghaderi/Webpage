@@ -9,7 +9,7 @@ about_me: |
 
   You can explore my publications and research on my <a href="https://scholar.google.com/citations?user=NYZnS8MAAAAJ&hl=en">Google Scholar</a> profile, and view my code contributions on [GitHub (@A-Ghaderi)](https://github.com/A-Ghaderi). If you’re interested in discussing these topics further, feel free to reach out!
 
-about_me_img: "/imgs/me/AG2.JPG"
+about_me_img: "/imgs/me/AG1.JPG"
 about_me_img_caption: |
   (photo credit S.S.)
 
