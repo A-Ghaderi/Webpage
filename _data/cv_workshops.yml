@@ -1,24 +1,54 @@
 # cv_teaching.yml lists my teaching experience for my CV
 
 - workshop: |
-    Manufacturing process selection and Design for manufacturing
-  date: 2023
-  for: Udemy
-
-- workshop: |
-    Geometric Dimensioning and Tolerancing (GD&T)
-  date: 2023
-  for: Udemy
-
-- workshop: |
-    Finite Element Analysis Training : Altair Hypermesh & Abaqus
-  date: 2022
-  for: Udemy
+    Generative AI with Large Language Models
+  date: 2024
+  for: Coursera
   
 - workshop: |
-    FMEA Training | FMEA  Specialist Certification (Accredited)
+    AI and ML on Google Cloud
+  date: 2024
+  for: Coursera
+  
+- workshop: |
+    Trusthworthy Generative AI
+  date: 2024
+  for: Coursera
+  
+- workshop: |
+    Google Project Management
+  date: 2024
+  for: Coursera
+  
+- workshop: |
+    Application Development with Cloud Run
   date: 2023
-  for: Udemy
+  for: Coursera
+  
+- workshop: |
+    Google Cloud Big Data and ML Fundamentals
+  date: 2023
+  for: Coursera
+  
+- workshop: |
+    Machine Learning in Production
+  date: 2023
+  for: Coursera
+
+- workshop: |
+    Prompt Engineering for ChatGPT
+  date: 2023
+  for: Coursera
+
+- workshop: |
+    Spark, Hadoop, and Snoflake for Data Engineering
+  date: 2024
+  for: Coursera
+  
+- workshop: |
+    Working with BigQuery
+  date: 2023
+  for: Coursera
 
 - workshop: |
     SQL for Data Science
