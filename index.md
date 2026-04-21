@@ -11,7 +11,7 @@ Previously at Ford Motor Company, I built and deployed impactful ML solutions, i
 
 Across my work, I focus on bridging advanced machine learning with production systems, ensuring that models are not only accurate but also scalable, interpretable, and impactful. My interests lie in LLMs, agentic AI, multimodal systems, and building reliable AI infrastructure that drives meaningful business outcomes.
 
-  You can explore my research on my Google Scholar profile and view my projects on [GitHub (@A-Ghaderi)](https://github.com/A-Ghaderi). II’m always open to connecting and discussing AI systems, GenAI, and applied machine learning.
+  You can explore my research on my Google Scholar profile and view my projects on [GitHub (@A-Ghaderi)](https://github.com/A-Ghaderi). I’m always open to connecting and discussing AI systems, GenAI, and applied machine learning.
 
 about_me_img: "/imgs/me/AG3.jpg"
 about_me_img_caption: |
