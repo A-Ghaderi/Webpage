@@ -1,84 +1,48 @@
 # research.yml gives research project entries used on the Research page
 
-- project: Physics_Informed Neural Network (PINN)
-  image: "/imgs/Building blocks.svg"
-  image_pos: "bottom"
-  image_is_figure: true
-  figure_caption: |
-    A schematic of PINN blocks
+- project: GenAI Agent Platform
   description: |
-    The finite element method (FEM) is a common approach that
-    comes with a restrictive computational cost in the case of repetitive simulations, such as optimization,
-    control, real-time monitoring, probabilistic modeling, and uncertainty quantification. This is due to the fact that
-    forward simulations require solving large non-linear equations repeatedly.
-    
-    The advent of Machine Learning (ML) and AI in recent years
-    has provided an opportunity to construct quick surrogate ML models to replace high fidelity multi-physics models,
-    which have a high computational cost and may not be applicable for high nonlinear equations.
-    PINN differs from other
-    
-    
-    Our goal is to find techniques to make PINN training less costly, lower the amount of trial-anderror necessary to appropriately tune the hyper-parameters, 
-    and at the very least, empirically increase the training
-    process’s robustness. Our current [paper](https://doi.org/10.48550/arXiv.2209.11749) is to present a synthesis
-    that incorporates: (i) employing non-dimensionalization and normalization of the physical parameter to address the
-    problem of complex equations, (ii) infusing a broad understanding of the solution field with imprecise knowledge, (iii)
-    using a weighted-sum scheme to enhance optimization algorithms in the context of multi-objective optimization, (IV)
-    exploiting different approaches for weight initialization due to unbalanced gradients causes inaccuracy in optimization.
-    
-    
-- project: Physics-Constrained Data-Driven Modeling
-  image: "/imgs/concept.svg"
-  image_pos: "bottom"
-  image_is_figure: true
-  figure_caption: |
-    Schematic of the proposed model from order-reduction to model fusion
-  description: |
-    This work presents a new generation of super-constrained
-    deep-learned hybrid constitutive models that can describe the accumulated
-    effects of the mechanical and environmental damage on elastomer Matrix. The model describes the matrix through a cooperative multi-agents
-    framework where each agent has been defined by a simple deep-learned
-    neural network (NN) which is super-constrained by equations derived
-    from physics, thermodynamics, and continuum mechanics. The use of
-    NN agents within the micro-mechanical models, as opposed to traditional physics-driven modeling methods, provides a new generation
-    of hybrid models that use the interpretability/simplicity of micromechanical models plus the computational speed and adaptability of
-    machine-learned algorithms. While the accuracy of the predictions of
-    the proposed hybrid model still relies heavily on the quality of the data
-    used for training, the model output is already constrained within the
-    region that satisfies our existing knowledge of the matrix behavior.
-    
-    The model has been constrained at multiple steps; (1) model defined
-    based on strain energy; (2) hiring micro-sphere for 3D to 1D order reduction; (3) using network decomposition to separate different inelastic
-    effects; (4) defining learning agents to represent each 1D subnetwork.
-    Those steps which are required to build a cooperative multi-agents
-    hybrid model and their formulation are outlined in our [paper](https://doi.org/10.1016/j.ijmecsci.2022.107236).
-    
-    
-- project: Uncertainty Quantification and Probability of Failure
-  image: "/imgs/UQ aging.svg"
-  image_pos: "bottom"
-  image_is_figure: true
-  figure_caption: |
-    Schematic of the proposed model from UQ and PF
-  description: |
-    proper prediction of the end-life of rubberlike materials has been a subject of significant interest, which comes
-    with major challenges. One major challenge is the large uncertainty
-    observed in the behavior of elastomers induced by intrinsic defects,
-    processing, sample manufacturing, or simply heterogeneous nature of
-    the matrix. Elastomers are often made by highly cross-linked polymer
-    matrix that behave fully elastic with entropic force, which results in
-    a highly non-linear behavior, especially during large deformation and
-    significant hardening observed before failure.
-    
-    In this [contribution](https://doi.org/10.1016/j.mechmat.2021.104044), our goal is to carry out three fundamental steps
-    in probabilistic modeling of elastomers, namely (i) Bayesian evaluation of constitutive model's parameters
-    for hyperelastic behavior of rubber-like materials from distinct
-    experimental data, (ii) Development of confidence bounds for stress–
-    strain curves based on conjugate prior, and (iii) failure probability
-    calculation based on First Order Reliability Method (FORM) and
-    validated against that of Crude Monte Carlo (CMC) simulation to provide a sensitivity analysis on the effect of model parameters on failure
-    probability.
-        
-    
+    Designed and deployed a production-grade GenAI agent platform integrating retrieval, tool usage, and code execution.
+    Built scalable pipelines leveraging BigQuery and LLM orchestration frameworks to enable complex multi-step reasoning workflows.
+    Improved response quality, grounding, and system reliability for enterprise use cases.
 
+  technologies: [LLMs, RAG, BigQuery, LangGraph, Python, Distributed Systems]
 
+- project: Multimodal Safety Agent
+  description: |
+    Developed a multimodal AI agent for hazard detection from store ceiling images, combining visual understanding with reasoning and task automation.
+    Implemented localization and decision-making pipelines that automatically assign tasks to store associates, enabling real-world operational impact.
+    Focused on robustness, interpretability, and safety in production environments.
+
+  technologies: [VLMs, Multimodal AI, Computer Vision, LangGraph, Python]
+
+- project: LLM-Powered Search System (Ford)
+  description: |
+    Built and deployed an AI-powered semantic search system for call center agents using LLMs and retrieval pipelines.
+    Reduced response time by 60% and significantly improved knowledge accessibility and agent efficiency.
+    Designed end-to-end system including data ingestion, indexing, retrieval, and response generation.
+
+  technologies: [LLMs, NLP, Information Retrieval, BigQuery, Python]
+
+- project: Recommendation Engine for Call Center Optimization
+  description: |
+    Developed a recommendation system to assist call center agents with next-best actions, reducing average call duration by 20%.
+    Leveraged historical interaction data and machine learning models to optimize decision-making in real time.
+    Integrated into production workflows with measurable business impact.
+
+  technologies: [Recommendation Systems, Machine Learning, Python, SQL]
+
+- project: Global Contact Center Analytics Pipeline
+  description: |
+    Led the design and implementation of a large-scale data pipeline processing global call center interactions.
+    Built NLP-based systems for sentiment analysis, issue classification, and trend detection to support operational insights.
+    Enabled real-time monitoring and improved decision-making for leadership teams.
+
+  technologies: [NLP, Apache Airflow, GCP Dataflow, BigQuery, Python]
+
+- project: EV Charging Reliability & Cost Optimization Model
+  description: |
+    Developed a reliability scoring model for electric vehicle charging stations and optimized home charging costs using intelligent power system modeling.
+    Combined statistical modeling and optimization techniques to improve system efficiency and user experience.
+
+  technologies: [Statistical Modeling, Optimization, Python, Energy Systems]
