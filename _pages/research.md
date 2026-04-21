@@ -1,7 +1,7 @@
 ---
 title: Projects
-layout: research
-permalink: /research/
+layout: projects
+permalink: /projects/
 
 jumbo_txt: |
     "By far, the greatest danger of Artificial Intelligence is that people conclude too early that they understand it."
