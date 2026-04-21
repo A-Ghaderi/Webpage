@@ -1,16 +1,157 @@
---- layout: default ---
-{{ page.title }}
-{% if page.jumbo_txt %}
-{{ page.jumbo_txt | strip }}
-{% endif %} {% if page.overview %}
-{{ page.overview | markdownify }}
-{% endif %}
-SELECTED WORK
-{% assign project_list = site.data.research %} {% for project in project_list %}
-{{ FORLOOP.INDEX | PREPEND: '0' | SLICE: -2, 2 }}
-{{ project.project }}
-{{ project.description | strip }}
-{% if project.technologies %} {% for tech in project.technologies %}
-{{ tech }}
-{% endfor %} {% endif %}
-{% endfor %}
+---
+layout: default
+---
+<style>
+  .rp-quote { font-style: italic; font-size: 15px; color: #6b7280; border-left: 2px solid #d1d5db; padding-left: 1rem; margin: 0 0 1.25rem; line-height: 1.6; max-width: 560px; }
+  .rp-section-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #9ca3af; margin: 0 0 1.25rem; }
+  .rp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .rp-card-num { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #9ca3af; margin: 0 0 0.5rem; }
+  .rp-card-desc { font-size: 13.5px; line-height: 1.7; color: #6b7280; margin: 0 0 1rem; }
+  .rp-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .rp-tag { font-size: 11px; padding: 3px 9px; border-radius: 100px; background: #f9fafb; color: #6b7280; border: 0.5px solid #e5e7eb; }
+</style>
+
+<div class="container">
+
+  <!-- Overview -->
+  <div class="row mt-3">
+    <div class="col">
+      <div class="card border-0">
+        <div class="card-body">
+          <div class="card-block px-2">
+            <h4 class="card-title">Projects</h4>
+            <blockquote class="rp-quote">"By far, the greatest danger of Artificial Intelligence is that people conclude too early that they understand it."</blockquote>
+            <p class="card-text">
+              My work focuses on designing and deploying large-scale machine learning and GenAI systems, with an emphasis on LLM-powered agents, retrieval systems, and production AI infrastructure.
+              I am broadly interested in building reliable, scalable, and impactful AI systems that operate in real-world environments, spanning areas such as generative AI, multimodal systems, and intelligent automation.
+              Below are some of my selected projects. If anything is of interest, feel free to <a href="#contact-me">contact me</a>!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects grid -->
+  <div class="row mt-2 mb-5">
+    <div class="col">
+      <div class="px-3">
+        <p class="rp-section-label">Selected work</p>
+        <div class="rp-grid">
+
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <p class="rp-card-num">01</p>
+              <h5 class="card-title">GenAI Agent Platform</h5>
+              <p class="rp-card-desc flex-grow-1">
+                Designed and deployed a production-grade GenAI agent platform integrating retrieval, tool usage, and code execution.
+                Built scalable pipelines leveraging BigQuery and LLM orchestration frameworks to enable complex multi-step reasoning workflows.
+                Improved response quality, grounding, and system reliability for enterprise use cases.
+              </p>
+              <div class="rp-tags mt-auto">
+                <span class="rp-tag">LLMs</span>
+                <span class="rp-tag">RAG</span>
+                <span class="rp-tag">BigQuery</span>
+                <span class="rp-tag">LangGraph</span>
+                <span class="rp-tag">Python</span>
+                <span class="rp-tag">Distributed Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <p class="rp-card-num">02</p>
+              <h5 class="card-title">Multimodal Safety Agent</h5>
+              <p class="rp-card-desc flex-grow-1">
+                Developed a multimodal AI agent for hazard detection from store ceiling images, combining visual understanding with reasoning and task automation.
+                Implemented localization and decision-making pipelines that automatically assign tasks to store associates, enabling real-world operational impact.
+                Focused on robustness, interpretability, and safety in production environments.
+              </p>
+              <div class="rp-tags mt-auto">
+                <span class="rp-tag">VLMs</span>
+                <span class="rp-tag">Multimodal AI</span>
+                <span class="rp-tag">Computer Vision</span>
+                <span class="rp-tag">LangGraph</span>
+                <span class="rp-tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <p class="rp-card-num">03</p>
+              <h5 class="card-title">LLM-Powered Search System (Ford)</h5>
+              <p class="rp-card-desc flex-grow-1">
+                Built and deployed an AI-powered semantic search system for call center agents using LLMs and retrieval pipelines.
+                Reduced response time by 60% and significantly improved knowledge accessibility and agent efficiency.
+                Designed end-to-end system including data ingestion, indexing, retrieval, and response generation.
+              </p>
+              <div class="rp-tags mt-auto">
+                <span class="rp-tag">LLMs</span>
+                <span class="rp-tag">NLP</span>
+                <span class="rp-tag">Information Retrieval</span>
+                <span class="rp-tag">BigQuery</span>
+                <span class="rp-tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <p class="rp-card-num">04</p>
+              <h5 class="card-title">Recommendation Engine for Call Center Optimization</h5>
+              <p class="rp-card-desc flex-grow-1">
+                Developed a recommendation system to assist call center agents with next-best actions, reducing average call duration by 20%.
+                Leveraged historical interaction data and machine learning models to optimize decision-making in real time.
+                Integrated into production workflows with measurable business impact.
+              </p>
+              <div class="rp-tags mt-auto">
+                <span class="rp-tag">Recommendation Systems</span>
+                <span class="rp-tag">Machine Learning</span>
+                <span class="rp-tag">Python</span>
+                <span class="rp-tag">SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <p class="rp-card-num">05</p>
+              <h5 class="card-title">Global Contact Center Analytics Pipeline</h5>
+              <p class="rp-card-desc flex-grow-1">
+                Led the design and implementation of a large-scale data pipeline processing global call center interactions.
+                Built NLP-based systems for sentiment analysis, issue classification, and trend detection to support operational insights.
+                Enabled real-time monitoring and improved decision-making for leadership teams.
+              </p>
+              <div class="rp-tags mt-auto">
+                <span class="rp-tag">NLP</span>
+                <span class="rp-tag">Data Pipelines</span>
+                <span class="rp-tag">Python</span>
+                <span class="rp-tag">SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+              <p class="rp-card-num">06</p>
+              <h5 class="card-title">EV Charging Reliability &amp; Cost Optimization Model</h5>
+              <p class="rp-card-desc flex-grow-1">
+                Developed a reliability scoring model for electric vehicle charging stations and optimized home charging costs using intelligent power system modeling.
+                Combined statistical modeling and optimization techniques to improve system efficiency and user experience.
+              </p>
+              <div class="rp-tags mt-auto">
+                <span class="rp-tag">Statistical Modeling</span>
+                <span class="rp-tag">Optimization</span>
+                <span class="rp-tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
