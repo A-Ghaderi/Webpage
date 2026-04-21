@@ -1,61 +1,16 @@
----
-layout: default
----
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap');
-
-  .rp-wrap { font-family: 'DM Sans', sans-serif; color: var(--color-text-primary); padding: 0 0 3rem; }
-
-  .rp-hero { border-bottom: 1px solid #e5e7eb; padding-bottom: 2rem; margin-bottom: 2.5rem; }
-  .rp-hero-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #9ca3af; margin: 0 0 0.5rem; }
-  .rp-hero-title { font-family: 'DM Serif Display', serif; font-size: 42px; font-weight: 400; margin: 0 0 1.25rem; line-height: 1.1; }
-  .rp-quote { font-family: 'DM Serif Display', serif; font-style: italic; font-size: 15px; color: #6b7280; border-left: 2px solid #d1d5db; padding-left: 1rem; margin: 0 0 1.5rem; line-height: 1.6; max-width: 560px; }
-  .rp-overview { font-size: 14.5px; line-height: 1.75; color: #6b7280; max-width: 620px; margin: 0; }
-  .rp-overview a { color: #2563eb; text-decoration: none; border-bottom: 0.5px solid currentColor; }
-  .rp-overview a:hover { color: #1d4ed8; }
-
-  .rp-section-label { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #9ca3af; margin: 0 0 1.25rem; }
-
-  .rp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-
-  .rp-card { background: #ffffff; border: 0.5px solid #e5e7eb; border-radius: 12px; padding: 1.25rem 1.5rem; display: flex; flex-direction: column; transition: border-color 0.15s; }
-  .rp-card:hover { border-color: #9ca3af; }
-
-  .rp-card-num { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #9ca3af; margin: 0 0 0.75rem; }
-  .rp-card-title { font-family: 'DM Serif Display', serif; font-size: 19px; font-weight: 400; margin: 0 0 0.75rem; line-height: 1.25; color: #111827; }
-  .rp-card-desc { font-size: 13.5px; line-height: 1.7; color: #6b7280; margin: 0 0 1.25rem; flex: 1; }
-  .rp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
-  .rp-tag { font-size: 11px; padding: 3px 9px; border-radius: 100px; background: #f9fafb; color: #6b7280; border: 0.5px solid #e5e7eb; letter-spacing: 0.02em; }
-</style>
-
-<div class="rp-wrap">
-  <div class="rp-hero">
-    <p class="rp-hero-label">{{ site.title }}</p>
-    <h1 class="rp-hero-title">{{ page.title }}</h1>
-    {% if page.jumbo_txt %}
-      <blockquote class="rp-quote">{{ page.jumbo_txt | strip }}</blockquote>
-    {% endif %}
-    {% if page.overview %}
-      <p class="rp-overview">{{ page.overview | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-    {% endif %}
-  </div>
-
-  <p class="rp-section-label">Selected work</p>
-  <div class="rp-grid">
-    {% assign project_list = site.data.research %}
-    {% for project in project_list %}
-    <div class="rp-card">
-      <span class="rp-card-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
-      <h2 class="rp-card-title">{{ project.project }}</h2>
-      <p class="rp-card-desc">{{ project.description | strip }}</p>
-      {% if project.technologies %}
-      <div class="rp-tags">
-        {% for tech in project.technologies %}
-          <span class="rp-tag">{{ tech }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-</div>
+--- layout: default ---
+{{ page.title }}
+{% if page.jumbo_txt %}
+{{ page.jumbo_txt | strip }}
+{% endif %} {% if page.overview %}
+{{ page.overview | markdownify }}
+{% endif %}
+SELECTED WORK
+{% assign project_list = site.data.research %} {% for project in project_list %}
+{{ FORLOOP.INDEX | PREPEND: '0' | SLICE: -2, 2 }}
+{{ project.project }}
+{{ project.description | strip }}
+{% if project.technologies %} {% for tech in project.technologies %}
+{{ tech }}
+{% endfor %} {% endif %}
+{% endfor %}
